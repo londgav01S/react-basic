@@ -1,0 +1,13 @@
+div {
+
+    background-color: #FBFCFF;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    font-family: "Comic Sans MS", serif;
+    align-items: center;
+    justify-content: center;
+    /* Centrar horizontalmente */
+}

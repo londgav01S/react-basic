@@ -1,0 +1,39 @@
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #233553;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul{
+    margin: 10px;
+    border-color: #233553;
+    padding: 0;
+}
+p{
+    color: #2B2B92;
+}
+
+.Icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: none;
+}
+
+.Icon-check{
+    background-image: url('pausa.png');
+}
+
+.Icon-check--active{
+    background-image: url("img.png");
+}
+
+.txt-active{
+    text-decoration: line-through;
+}

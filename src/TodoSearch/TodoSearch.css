@@ -1,0 +1,25 @@
+input {
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-color: #233553;
+    border-width: 2px;
+    width: 300px;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20%;
+}
+
+.TodoSearch:focus {
+    outline-color: chartreuse;
+}
+
+.TodoSearch::placeholder {
+    color: #b7bae6;
+    font-family: "Comic Sans MS", serif;
+    font-weight: 400;
+}

@@ -1,0 +1,32 @@
+.agregarTodo{
+    box-shadow: 0px 5px 25px rgba(0, 255, 0, 0.5);
+    color: white;
+    margin: 10px ;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 85%;
+    transform: rotate(0);
+    transition: .3s ease;
+    border-radius: 50%;
+    background-image: url('crear.png');
+    background-size: cover;
+    background-position: center;
+    right: 35px;
+    bottom: 35px;
+    z-index: 1;
+}
+
+button:hover {
+   transform: rotate(360deg);
+}
+img{
+    width: 30px;
+    height: 100%;
+}

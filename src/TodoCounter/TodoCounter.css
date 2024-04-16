@@ -1,0 +1,14 @@
+h1{
+    font-size: 30px;
+    margin: 16px;
+    padding: 0;
+    text-align: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+span{
+    font-weight: lighter;
+}
